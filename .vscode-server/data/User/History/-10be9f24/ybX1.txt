@@ -1,0 +1,22 @@
+hdfs dfs -put /home/gabrielrc/dataset/persona.data /user/hive/warehouse/miusuario_test.db/persona
+
+hdfs dfs -mkdir -p /user/gabrielrc/datalake/miusuario_test2
+
+CREATE DATABASE MIUSUARIO_TEST2 LOCATION"/user/gabrielrc/datalake/miusuario_test2";
+
+hdfs dfs -mkdir -p /user/gabrielrc/datalake/miusuario_test2/persona
+
+CREATE TABLE MIUSUARIO_TEST2.PERSONA(
+ID STRING,
+NOMBRE STRING,
+TELEFONO STRING,
+CORREO STRING,
+FECHA_INGRESO STRING,
+EDAD INT,
+SALARIO DOUBLE,
+ID_EMPRESA STRING
+)ROW FORMAT DELIMITED
+FIELDS TERMINATED BY '|'
+ LINES TERMINATED BY '\n'
+ STORED AS TEXTFILE
+ LOCATION '/user/gabrielrc/datalake/miusuario_test2/persona';

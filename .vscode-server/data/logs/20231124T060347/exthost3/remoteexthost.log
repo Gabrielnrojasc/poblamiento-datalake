@@ -1,0 +1,16 @@
+2023-11-24 09:05:55.393 [info] Extension host with pid 30107 started
+2023-11-24 09:05:55.393 [error] Error: EEXIST: file already exists, open '/home/gabrielrc/.vscode-server/data/User/workspaceStorage/3c7ae85cecb4b25c302aa31ad8447115/vscode.lock'
+2023-11-24 09:05:55.397 [info] Lock '/home/gabrielrc/.vscode-server/data/User/workspaceStorage/3c7ae85cecb4b25c302aa31ad8447115/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-11-24 09:05:55.408 [info] Lock '/home/gabrielrc/.vscode-server/data/User/workspaceStorage/3c7ae85cecb4b25c302aa31ad8447115/vscode.lock': The lock does not look stale, elapsed: 733 ms, giving up.
+2023-11-24 09:05:55.434 [info] Lock '/home/gabrielrc/.vscode-server/data/User/workspaceStorage/3c7ae85cecb4b25c302aa31ad8447115-1/vscode.lock': Lock acquired.
+2023-11-24 09:05:55.605 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-11-24 09:05:55.788 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-11-24 09:05:55.789 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-24 09:05:56.254 [info] Eager extensions activated
+2023-11-24 09:05:56.255 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-24 09:05:56.256 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-24 09:06:12.453 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-11-24 09:24:16.482 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-24 10:16:18.737 [info] Extension host terminating: received terminate message from renderer
+2023-11-24 10:16:18.738 [info] Lock '/home/gabrielrc/.vscode-server/data/User/workspaceStorage/3c7ae85cecb4b25c302aa31ad8447115-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-11-24 10:16:18.752 [info] Extension host with pid 30107 exiting with code 0

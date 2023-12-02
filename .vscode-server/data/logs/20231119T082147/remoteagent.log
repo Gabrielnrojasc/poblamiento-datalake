@@ -1,0 +1,15 @@
+2023-11-19 08:21:47.492 [info] 
+
+
+
+
+2023-11-19 08:21:47.492 [info] Extension host agent started.
+2023-11-19 08:21:47.493 [info] Started initializing default profile extensions in extensions installation folder. file:///home/gabrielrc/.vscode-server/extensions
+2023-11-19 08:21:47.506 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/gabrielrc/.vscode-server/extensions
+2023-11-19 08:21:48.101 [info] [127.0.0.1][766b945a][ManagementConnection] New connection established.
+2023-11-19 08:21:48.435 [info] [127.0.0.1][85b459b7][ExtensionHostConnection] New connection established.
+2023-11-19 08:21:48.581 [info] [127.0.0.1][85b459b7][ExtensionHostConnection] <16376> Launched Extension Host Process.
+2023-11-19 08:26:33.041 [info] [127.0.0.1][766b945a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-11-19 08:26:33.075 [info] [127.0.0.1][85b459b7][ExtensionHostConnection] <16376> Extension Host Process exited with code: 0, signal: null.
+2023-11-19 08:26:33.075 [info] Cancelling previous shutdown timeout
+2023-11-19 08:26:33.075 [info] Last EH closed, waiting before shutting down

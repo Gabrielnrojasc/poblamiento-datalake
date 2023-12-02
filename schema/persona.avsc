@@ -1,0 +1,14 @@
+{
+  "name": "PERSONA",
+  "type": "record",
+  "fields": [
+    {"name": "ID", "type": ["string", "null"]},
+    {"name": "NOMBRE", "type": ["string", "null"]},
+    {"name": "TELEFONO", "type": ["string", "null"]},
+    {"name": "CORREO", "type": ["string", "null"]},
+    {"name": "FECHA_INGRESO", "type": ["string", "null"]},
+    {"name": "EDAD", "type": ["string", "null"]},
+    {"name": "SALARIO", "type": ["string", "null"]},
+    {"name": "ID_EMPRESA", "type": ["string", "null"]}
+  ]
+}
